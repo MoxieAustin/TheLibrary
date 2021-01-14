@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'ProzaLibre';
+  src: url(fonts/ProzaLibre-SemiBold.ttf);
+}
+
+body {
+  font-family: 'Open Sans' !important;
+}
+
+body .container .top {
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(45deg, #011627 75%, #4393a3 20%, #91beb5 100%);
+}
+
+body .container .top h1 {
+  font-family: 'ProzaLibre' !important;
+}
+
+body .container .top .description {
+  font-family: 'Open Sans' !important;
+}
+
+body .container .modal-content {
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+body .container .modal-content .modal-header {
+  background: linear-gradient(45deg, #4393a3 75%, #011627 20%, #011627 90%, #032948 100%, #4393a3 100%);
+  color: white;
+}
+
+body .container .btn-primary {
+  background-color: #4393a3;
+  color: white;
+  font-family: 'ProzaLibre' !important;
+  -webkit-transition: all .4s ease-in-out !important;
+  transition: all .4s ease-in-out !important;
+  border-color: #4393a3;
+}
+
+body .container .btn-primary:hover {
+  background-color: #011627;
+  color: white;
+  border-color: #011627;
+}
+
+body .container .grow {
+  -webkit-transition: all .4s ease-in-out !important;
+  transition: all .4s ease-in-out !important;
+}
+
+body .container .grow:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+body .container .book {
+  background: linear-gradient(45deg, #4393a3 85%, #011627 15%, #011627 100%);
+  color: white;
+  border: 3px solid white !important;
+  border-radius: 10px !important;
+}
+
+body .container .book .book-name {
+  font-size: 1.5rem;
+  font-family: 'ProzaLibre' !important;
+  text-transform: uppercase;
+}
+
+body .container .book .btn-danger {
+  background-color: #F71735 !important;
+}
+/*# sourceMappingURL=styles.css.map */
